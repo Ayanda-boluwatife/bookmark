@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    font-family: "Rubik", sans-serif;
+    text-transform:uppercase;
+}
+
+.nav-list-ol ol{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-list-ol ol li{
+    list-style: none;
+}
+
+.nav-list-ol ol li a{
+    text-decoration: none;
+    color: hsl(229, 31%, 21%);
+    transition: all 0.5s ease;
+}
+
+.nav-list-ol ol li a:hover{
+    color: hsl(0, 94%, 66%);
+}
+
+.nav-list-ol ol button{
+    padding: 10px 30px;
+    border: 2px solid hsl(0, 94%, 66%);
+    background-color: hsl(0, 94%, 66%);
+    border-radius: 8px;
+    font-weight: 600;
+    color: white;
+}
+
+.nav-list-ol ol button:hover{
+    background-color: transparent;
+    cursor: pointer;
+    color: hsl(0, 94%, 66%);
+}
+
+/* ================ hero =================== */
+
+.main-hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 120px;
+}
+
+/* .hero-overlay{
+    background-color: hsl(231, 69%, 60%);
+    height: 25vh;
+    width: 50%;
+} */
